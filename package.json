@@ -1,0 +1,18 @@
+{
+  "name": "jobpilot-backend",
+  "version": "1.0.0",
+  "description": "JobPilot Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo built"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "@supabase/supabase-js": "^2.39.0"
+  }
+}
